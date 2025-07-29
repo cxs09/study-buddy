@@ -1,4 +1,4 @@
-# tutor_app
+# Study-buddy
 
 A new Flutter project.
 
