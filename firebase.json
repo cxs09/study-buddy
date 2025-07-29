@@ -1,0 +1,31 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tutorapp-fb110",
+          "appId": "1:207379885957:android:7a063c677b6a64b6e75eec",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tutorapp-fb110",
+          "configurations": {
+            "android": "1:207379885957:android:7a063c677b6a64b6e75eec",
+            "ios": "1:207379885957:ios:fbd2e8aa1164a6d6e75eec",
+            "web": "1:207379885957:web:12bae6fa7ae399d4e75eec"
+          }
+        }
+      }
+    }
+  }
+}

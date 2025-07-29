@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "207379885957",
+    "project_id": "tutorapp-fb110",
+    "storage_bucket": "tutorapp-fb110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207379885957:android:7a063c677b6a64b6e75eec",
+        "android_client_info": {
+          "package_name": "com.connectandlearning.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFhlFZcaXgN7nDJTh66e7kOOSc6oAwnmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207379885957:android:fd2d663cc1a3295ce75eec",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFhlFZcaXgN7nDJTh66e7kOOSc6oAwnmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207379885957:android:fbb14bcf674c8966e75eec",
+        "android_client_info": {
+          "package_name": "com.example.tutor_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFhlFZcaXgN7nDJTh66e7kOOSc6oAwnmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

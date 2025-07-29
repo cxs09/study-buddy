@@ -1,0 +1,30 @@
+name: Sync main to release branch
+
+on:
+  push:
+    tags:
+      - 'v*' # Triggers on tags like v1.0, v2.0, etc.
+
+jobs:
+  sync-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch all branches
+        run: git fetch origin
+
+      - name: Merge main into release
+        run: |
+          git checkout release || git checkout -b release
+          git merge main --no-ff -m "Auto-sync main to release on tag"
+          git push origin release
